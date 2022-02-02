@@ -185,7 +185,7 @@
 				</section>	
 				<div class="container-fluid products-container">
 				  <div class="row m-0">
-				    <div class="col-9 p-0 products">
+				    <div class="col-md-9 col-12 p-0 order-2 order-md-1 products">
 				    	<div class="row justify-content-between m-0 products__navigation">
 						    <div class="col d-flex align-items-center products__sort">
 						    	<span>Sort by:</span>
@@ -334,239 +334,251 @@
 						    </div>
 						</div>
 				    </div>
-					<div class="col-3 filters">
-						<div class="row">
-							<div class="col">
-								<h2 class="filters_title topics">Categories</h2>
-								<p class="topics_tab">
-									<button class="btn topics_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNew" aria-expanded="false" aria-controls="collapseNew">
-									New
-									</button>
-								</p>
-								<form class="collapse topics_list" id="collapseNew">
-									<div class="form-check">
-										<input class="form-check-input topics_input" type="checkbox" value="" id="Dresses">
-										<label class="form-check-label topics_label" for="Dresses">
-										Dresses
-										</label>
+					<div class="col-md-3 col-12 order-1 order-md-2 filters">
+<!--start expand filters-->
+						<nav class="navbar navbar-expand-md">
+							<div class="container-fluid">
+								<button class="navbar-toggler button_black button_filters" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+									<span>Filters</span>
+								</button>
+								<div class="collapse navbar-collapse filters__collaps" id="navbarNavAltMarkup">
+									<div class="row">
+										<div class="col">
+											<h2 class="filters_title topics">Categories</h2>
+											<p class="topics_tab">
+												<button class="btn topics_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNew" aria-expanded="false" aria-controls="collapseNew">
+												New
+												</button>
+											</p>
+											<form class="collapse topics_list" id="collapseNew">
+												<div class="form-check">
+													<input class="form-check-input topics_input" type="checkbox" value="" id="Dresses">
+													<label class="form-check-label topics_label" for="Dresses">
+													Dresses
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input topics_input" type="checkbox" value="" id="Casual" checked>
+													<label class="form-check-label topics_label" for="Casual">
+													Casual
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input topics_input" type="checkbox" value="" id="Shoes">
+													<label class="form-check-label topics_label" for="Shoes">
+													Shoes
+													</label>
+												</div>
+											</form>
+											<p class="topics_tab">
+												<button class="btn topics_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDesigners" aria-expanded="false" aria-controls="collapseDesigners">
+												Designers
+												</button>
+											</p>
+											<form class="collapse topics_list" id="collapseDesigners">
+												<div class="form-check">
+													<input class="form-check-input topics_input" type="checkbox" value="" id="Alanui">
+													<label class="form-check-label topics_label" for="Alanui">
+													Alanui
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input topics_input" type="checkbox" value="" id="Burberry" checked>
+													<label class="form-check-label topics_label" for="Burberry">
+													Burberry
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input topics_input" type="checkbox" value="" id="Camilla">
+													<label class="form-check-label topics_label" for="Camilla">
+													Camilla
+													</label>
+												</div>
+											</form>
+											<p class="topics_tab">
+												<button class="btn topics_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWomen" aria-expanded="false" aria-controls="collapseWomen">
+												Women
+												</button>
+											</p>
+											<form class="collapse topics_list" id="collapseWomen">
+												<div class="form-check">
+													<input class="form-check-input topics_input" type="checkbox" value="" id="Clothes" checked>
+													<label class="form-check-label topics_label" for="Clothes">
+													Clothes
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input topics_input" type="checkbox" value="" id="Shoes-women">
+													<label class="form-check-label topics_label" for="Shoes-women">
+													Shoes
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input topics_input" type="checkbox" value="" id="Bags">
+													<label class="form-check-label topics_label" for="Bags">
+													Bags
+													</label>
+												</div>
+											</form>
+											<p class="topics_tab">
+												<button class="btn topics_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMen" aria-expanded="false" aria-controls="collapseMen">
+												Men
+												</button>
+											</p>
+											<form class="collapse topics_list" id="collapseMen">
+												<div class="form-check">
+													<input class="form-check-input topics_input" type="checkbox" value="" id="Clothes-men" checked>
+													<label class="form-check-label topics_label" for="Clothes-men">
+													Clothes
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input topics_input" type="checkbox" value="" id="Shoes-men">
+													<label class="form-check-label topics_label" for="Shoes-men">
+													Shoes
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input topics_input" type="checkbox" value="" id="Bags-men">
+													<label class="form-check-label topics_label" for="Bags-men">
+													Bags
+													</label>
+												</div>
+											</form>
+											<p class="topics_tab">
+												<button class="btn topics_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseClearance" aria-expanded="false" aria-controls="collapseClearance">
+												Clearance
+												</button>
+											</p>
+											<form class="collapse topics_list" id="collapseClearance">
+												<div class="form-check">
+													<input class="form-check-input topics_input" type="checkbox" value="" id="Belts" checked>
+													<label class="form-check-label topics_label" for="Belts">
+													Belts
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input topics_input" type="checkbox" value="" id="Sunglasses">
+													<label class="form-check-label topics_label" for="Sunglasses">
+													Sunglasses
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input topics_input" type="checkbox" value="" id="Hats">
+													<label class="form-check-label topics_label" for="Hats">
+													Hats
+													</label>
+												</div>
+											</form>
+											<div class="topics_range price-range">
+												<div class="price-range__outer">
+													<div class="price-range__inner">
+														<span class="price-range__disc price-range__disc_left"></span>
+														<span class="price-range__disc price-range__disc_right"></span>
+													</div> 
+												</div>
+												<div class="price-range__text">Price $0 - $200</div>
+												<button class="tab__filter button button_grey">Filter</button>
+											</div>
+											<p class="topics_tab__size">Select your size</p>
+												<form class="topics_tab__sizes sizes-form">
+													<div class="form-check sizes-form__item">
+														<input class="form-check-input topics_input" type="radio" name="size" id="XS">
+														<label class="form-check-label topics_label" for="XS">XS</label>
+													</div>										
+													<div class="form-check sizes-form__item">
+														<input class="form-check-input topics_input" type="radio" name="size" id="S" checked>
+														<label class="form-check-label topics_label" for="S">S</label>
+													</div>
+													<div class="form-check sizes-form__item">
+														<input class="form-check-input topics_input" type="radio" name="size" id="M">
+														<label class="form-check-label topics_label" for="M">M</label>
+													</div>
+													<div class="form-check sizes-form__item">
+														<input class="form-check-input topics_input" type="radio" name="size" id="L">
+														<label class="form-check-label topics_label" for="L">L</label>
+													</div>
+													<div class="form-check sizes-form__item">
+														<input class="form-check-input topics_input" type="radio" name="size" id="XL">
+														<label class="form-check-label topics_label" for="XL">XL</label>
+													</div>
+												</form>
+										</div>
 									</div>
-									<div class="form-check">
-										<input class="form-check-input topics_input" type="checkbox" value="" id="Casual" checked>
-										<label class="form-check-label topics_label" for="Casual">
-										Casual
-										</label>
+									<div class="row">
+										<div class="col on-sale">
+											<h2 class="filters_title">On sale</h2>
+											<ul class="on-sale__list">
+												<li class="on-sale__item">
+													<a href="#" class="on-sale__link">
+														<img class="on-sale__img" src="assets/img/on-sale_1.jpg" width="70" height="101" alt="">
+														<div class="on-sale__info">
+															<h3 class="on-sale__title">Pintuck Tank</h3>
+															<p class="on-sale__price">$45.55</p>
+														</div>											
+													</a>										
+												</li>
+												<li class="on-sale__item">
+													<a href="#" class="on-sale__link">
+														<img class="on-sale__img" src="assets/img/on-sale_2.jpg" width="70" height="101" alt="">
+														<div class="on-sale__info">
+															<h3 class="on-sale__title">FOLICIA SILK SHIRT</h3>
+															<p class="on-sale__price">$69.49</p>
+														</div>											
+													</a>										
+												</li>
+												<li class="on-sale__item">
+													<a href="#" class="on-sale__link">
+														<img class="on-sale__img" src="assets/img/on-sale_3.jpg" width="70" height="101" alt="">
+														<div class="on-sale__info">
+															<h3 class="on-sale__title">Laylala Shirt</h3>
+															<p class="on-sale__price">$78.25</p>
+														</div>											
+													</a>										
+												</li>
+											</ul>
+										</div>
 									</div>
-									<div class="form-check">
-										<input class="form-check-input topics_input" type="checkbox" value="" id="Shoes">
-										<label class="form-check-label topics_label" for="Shoes">
-										Shoes
-										</label>
+									<div class="row">
+										<div class="col">
+											<h2 class="filters_title">Futured products</h2>	
+											<ul class="on-sale__list">
+												<li class="on-sale__item">
+													<a href="#" class="on-sale__link">
+														<img class="on-sale__img" src="assets/img/futured_1.jpg" width="70" height="101" alt="">
+														<div class="on-sale__info">
+															<h3 class="on-sale__title">Basic Sunglasses</h3>
+															<p class="on-sale__price">$14.95</p>
+														</div>											
+													</a>										
+												</li>
+												<li class="on-sale__item">
+													<a href="#" class="on-sale__link">
+														<img class="on-sale__img" src="assets/img/futured_2.jpg" width="70" height="101" alt="">
+														<div class="on-sale__info">
+															<h3 class="on-sale__title">Billie J</h3>
+															<p class="on-sale__price">$69.49</p>
+														</div>											
+													</a>										
+												</li>
+												<li class="on-sale__item">
+													<a href="#" class="on-sale__link">
+														<img class="on-sale__img" src="assets/img/futured_3.jpg" width="70" height="101" alt="">
+														<div class="on-sale__info">
+															<h3 class="on-sale__title">Sandie Shopperbag</h3>
+															<p class="on-sale__price">$69.95</p>
+														</div>											
+													</a>										
+												</li>
+											</ul>						
+										</div>
 									</div>
-								</form>
-								<p class="topics_tab">
-									<button class="btn topics_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDesigners" aria-expanded="false" aria-controls="collapseDesigners">
-									Designers
-									</button>
-								</p>
-								<form class="collapse topics_list" id="collapseDesigners">
-									<div class="form-check">
-										<input class="form-check-input topics_input" type="checkbox" value="" id="Alanui">
-										<label class="form-check-label topics_label" for="Alanui">
-										Alanui
-										</label>
-									</div>
-									<div class="form-check">
-										<input class="form-check-input topics_input" type="checkbox" value="" id="Burberry" checked>
-										<label class="form-check-label topics_label" for="Burberry">
-										Burberry
-										</label>
-									</div>
-									<div class="form-check">
-										<input class="form-check-input topics_input" type="checkbox" value="" id="Camilla">
-										<label class="form-check-label topics_label" for="Camilla">
-										Camilla
-										</label>
-									</div>
-								</form>
-								<p class="topics_tab">
-									<button class="btn topics_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWomen" aria-expanded="false" aria-controls="collapseWomen">
-									Women
-									</button>
-								</p>
-								<form class="collapse topics_list" id="collapseWomen">
-									<div class="form-check">
-										<input class="form-check-input topics_input" type="checkbox" value="" id="Clothes" checked>
-										<label class="form-check-label topics_label" for="Clothes">
-										Clothes
-										</label>
-									</div>
-									<div class="form-check">
-										<input class="form-check-input topics_input" type="checkbox" value="" id="Shoes-women">
-										<label class="form-check-label topics_label" for="Shoes-women">
-										Shoes
-										</label>
-									</div>
-									<div class="form-check">
-										<input class="form-check-input topics_input" type="checkbox" value="" id="Bags">
-										<label class="form-check-label topics_label" for="Bags">
-										Bags
-										</label>
-									</div>
-								</form>
-								<p class="topics_tab">
-									<button class="btn topics_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMen" aria-expanded="false" aria-controls="collapseMen">
-									Men
-									</button>
-								</p>
-								<form class="collapse topics_list" id="collapseMen">
-									<div class="form-check">
-										<input class="form-check-input topics_input" type="checkbox" value="" id="Clothes-men" checked>
-										<label class="form-check-label topics_label" for="Clothes-men">
-										Clothes
-										</label>
-									</div>
-									<div class="form-check">
-										<input class="form-check-input topics_input" type="checkbox" value="" id="Shoes-men">
-										<label class="form-check-label topics_label" for="Shoes-men">
-										Shoes
-										</label>
-									</div>
-									<div class="form-check">
-										<input class="form-check-input topics_input" type="checkbox" value="" id="Bags-men">
-										<label class="form-check-label topics_label" for="Bags-men">
-										Bags
-										</label>
-									</div>
-								</form>
-								<p class="topics_tab">
-									<button class="btn topics_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseClearance" aria-expanded="false" aria-controls="collapseClearance">
-									Clearance
-									</button>
-								</p>
-								<form class="collapse topics_list" id="collapseClearance">
-									<div class="form-check">
-										<input class="form-check-input topics_input" type="checkbox" value="" id="Belts" checked>
-										<label class="form-check-label topics_label" for="Belts">
-										Belts
-										</label>
-									</div>
-									<div class="form-check">
-										<input class="form-check-input topics_input" type="checkbox" value="" id="Sunglasses">
-										<label class="form-check-label topics_label" for="Sunglasses">
-										Sunglasses
-										</label>
-									</div>
-									<div class="form-check">
-										<input class="form-check-input topics_input" type="checkbox" value="" id="Hats">
-										<label class="form-check-label topics_label" for="Hats">
-										Hats
-										</label>
-									</div>
-								</form>
-								<div class="topics_range price-range">
-									<div class="price-range__outer">
-										<div class="price-range__inner">
-											<span class="price-range__disc price-range__disc_left"></span>
-											<span class="price-range__disc price-range__disc_right"></span>
-										</div> 
-									</div>
-									<div class="price-range__text">Price $0 - $200</div>
-									<button class="tab__filter button button_grey">Filter</button>
 								</div>
-								<p class="topics_tab__size">Select your size</p>
-									<form class="topics_tab__sizes sizes-form">
-										<div class="form-check sizes-form__item">
-											<input class="form-check-input topics_input" type="radio" name="size" id="XS">
-											<label class="form-check-label topics_label" for="XS">XS</label>
-										</div>										
-										<div class="form-check sizes-form__item">
-											<input class="form-check-input topics_input" type="radio" name="size" id="S" checked>
-											<label class="form-check-label topics_label" for="S">S</label>
-										</div>
-										<div class="form-check sizes-form__item">
-											<input class="form-check-input topics_input" type="radio" name="size" id="M">
-											<label class="form-check-label topics_label" for="M">M</label>
-										</div>
-										<div class="form-check sizes-form__item">
-											<input class="form-check-input topics_input" type="radio" name="size" id="L">
-											<label class="form-check-label topics_label" for="L">L</label>
-										</div>
-										<div class="form-check sizes-form__item">
-											<input class="form-check-input topics_input" type="radio" name="size" id="XL">
-											<label class="form-check-label topics_label" for="XL">XL</label>
-										</div>
-									</form>
 							</div>
-						</div>
-						<div class="row">
-							<div class="col on-sale">
-								<h2 class="filters_title">On sale</h2>
-								<ul class="on-sale__list">
-									<li class="on-sale__item">
-										<a href="#" class="on-sale__link">
-											<img class="on-sale__img" src="assets/img/on-sale_1.jpg" width="70" height="101" alt="">
-											<div class="on-sale__info">
-												<h3 class="on-sale__title">Pintuck Tank</h3>
-												<p class="on-sale__price">$45.55</p>
-											</div>											
-										</a>										
-									</li>
-									<li class="on-sale__item">
-										<a href="#" class="on-sale__link">
-											<img class="on-sale__img" src="assets/img/on-sale_2.jpg" width="70" height="101" alt="">
-											<div class="on-sale__info">
-												<h3 class="on-sale__title">FOLICIA SILK SHIRT</h3>
-												<p class="on-sale__price">$69.49</p>
-											</div>											
-										</a>										
-									</li>
-									<li class="on-sale__item">
-										<a href="#" class="on-sale__link">
-											<img class="on-sale__img" src="assets/img/on-sale_3.jpg" width="70" height="101" alt="">
-											<div class="on-sale__info">
-												<h3 class="on-sale__title">Laylala Shirt</h3>
-												<p class="on-sale__price">$78.25</p>
-											</div>											
-										</a>										
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col">
-								<h2 class="filters_title">Futured products</h2>	
-								<ul class="on-sale__list">
-									<li class="on-sale__item">
-										<a href="#" class="on-sale__link">
-											<img class="on-sale__img" src="assets/img/futured_1.jpg" width="70" height="101" alt="">
-											<div class="on-sale__info">
-												<h3 class="on-sale__title">Basic Sunglasses</h3>
-												<p class="on-sale__price">$14.95</p>
-											</div>											
-										</a>										
-									</li>
-									<li class="on-sale__item">
-										<a href="#" class="on-sale__link">
-											<img class="on-sale__img" src="assets/img/futured_2.jpg" width="70" height="101" alt="">
-											<div class="on-sale__info">
-												<h3 class="on-sale__title">Billie J</h3>
-												<p class="on-sale__price">$69.49</p>
-											</div>											
-										</a>										
-									</li>
-									<li class="on-sale__item">
-										<a href="#" class="on-sale__link">
-											<img class="on-sale__img" src="assets/img/futured_3.jpg" width="70" height="101" alt="">
-											<div class="on-sale__info">
-												<h3 class="on-sale__title">Sandie Shopperbag</h3>
-												<p class="on-sale__price">$69.95</p>
-											</div>											
-										</a>										
-									</li>
-								</ul>						
-							</div>
-						</div>
+						</nav>
+<!--end expand filters-->						
 					</div>
+
 				  </div>
 				</div>	
 			
