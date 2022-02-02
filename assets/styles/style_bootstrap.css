@@ -233,6 +233,10 @@ img {
     border-bottom: 3px solid #336666;
     color: #ffffff;
 }
+.button_filters {
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
 
 
 
@@ -1794,6 +1798,9 @@ a.features__link {
     color: #fd926d;
     font-weight: 700;
     text-transform: uppercase;
+}
+.filters__collaps {
+    flex-direction: column;
 }
 
 
